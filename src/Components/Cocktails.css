@@ -1,0 +1,108 @@
+@media (max-width:480px){
+    .cocktail-heading{
+        font-family:sans-serif;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 15px;
+    }
+    .cocktail-sub-heading-align{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cocktail-card{
+        font-family:sans-serif;
+        padding-left: 23px;
+        padding-right: 23px;   
+    }
+    .image-add-container{
+        margin-bottom: 20px;
+    }
+    .overlay-cont{
+        position: relative;
+    }
+    .overlay-img{
+        position: absolute;
+        top:75%;
+        right: 10px;
+    }
+    .button-container{
+        text-align: center;
+        position: fixed;
+        bottom: 10%;
+        background-size: cover;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+
+    .cocktail-title{
+        color:#e53e35;
+        font-size: 20px;
+        padding-bottom: 21px;
+        margin:0px ;
+    }
+    .cocktails-sub-container{
+        display: flex;
+        flex-direction: row;
+        font-family: sans-serif;
+    }
+    .cocktails-sub-card{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        font-family: sans-serif;
+
+    }
+    .subb-heading{
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    .pricee{
+        font-size: 15px;
+        padding-top: 5px;
+        font-weight: 600;
+    }
+    .descriptionn{
+        font-size: 14px;
+        padding-top: 7px;
+        color: #4A5568;
+        padding-right: 40px;
+    }
+    .cocktails-cont{
+        width: 280px;
+        height: 45px;
+    }
+    .veg{
+        padding-top: 22px;
+        padding-right: 13px;
+    }
+    .best-seller{
+        padding-top: 20px;
+    }
+    .image-add-container{
+        text-align: end;
+    }
+    .rupee{
+        height: 8px;
+        width: 8px;
+
+    }
+}
+
+/*    .final-cart-btn{
+        background-color: #e53e35;
+        color:#ffffff;
+        border-radius: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 15px;
+        border-style: none;
+        box-shadow: 0 0 50px 15px aliceblue;
+        position: relative;
+    }*/

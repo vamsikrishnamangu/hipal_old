@@ -1,0 +1,85 @@
+@media (max-width:480px){
+    .popular-in-restaurant{
+        background-color: #ffffff;
+        height: 295px;
+        width:480px;
+        padding-right: 25px;
+        padding-top: 18px;
+        padding-left: 25px;
+    }
+    .populars{
+        padding-top: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+    }
+    .populars-para{
+        margin: 0px;
+        font-size: 14px;
+    }
+    .populars::-webkit-scrollbar{
+        display: none;
+    }
+    .sub-heading{
+        font-family:sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .each-pops{
+        padding-right: 25px;
+    }
+    .image-bottom{
+        height: 430px;
+        width:480px;
+    }
+    .bottom-card{
+        padding-top: 25px;
+        background-color: #ffffff;
+        padding-left: 25px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .insta-icon{
+        height: 29px;
+        width: 30px;
+    }
+    .youtube-icon{
+        padding-top: 5px;
+        height: 19px;
+        width: 25px;
+    }
+    .bottom-para{
+        padding-top:22px;
+        font-family:sans-serif;
+        color: #4A5568;
+        font-size: 14px;
+        font-weight: 200;
+        width: 365px;
+    }
+    .fssai-license{
+        display: flex;
+        font-family:sans-serif;
+        color: #4A5568;
+        font-size: 16px;
+    }
+    .fssai{
+        padding-top: 13.72px;
+        padding-bottom: 21px;
+        padding-right: 5px;
+    }
+    .spanEle{
+        font-family:sans-serif;
+        font-size: 16px;
+        padding-top: 18px;
+        padding-left: 5px;
+    }
+    .copyright{
+        width: 480px;
+    }
+}

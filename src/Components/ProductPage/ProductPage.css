@@ -1,0 +1,74 @@
+@media (max-width:480px){
+    .cross-symbol{
+        position: absolute;
+        left:87%;
+        top:10%;
+    }
+    .product-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 21px;
+        padding-top: 16px;
+        padding-bottom: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #ffffff;
+        font-family: sans-serif;
+     }
+    .carousel-images{
+        height: 90vh;
+        max-width: 480px;
+    }
+    .heading-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+
+     }
+    .heading{
+        font-size: 23px;
+        font-weight: 600;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+    .price{
+        font-family: sans-serif;
+        font-size: 15px;
+        padding-top: 5px;
+        padding-right: 23px;
+        font-weight: 600;
+    }
+    .portion-card{
+        display: flex;
+        justify-content: space-between;
+    }
+    .extras-list{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+    }
+    .extras-items{
+        font-size: 14px;
+        padding-top: 5px;
+        padding-right: 10px;
+        width: 91px;
+        height: 18px;
+        color: #4A5568;
+    }
+    .add-cart-button{
+        position: relative;
+        bottom: 10%;
+    }
+    .cart-text{
+        position: absolute;
+        color: #ffffff;
+        top:15px;
+        left: 150px;
+        
+        font-size: 20px;
+        font-weight: 400;
+    }
+}

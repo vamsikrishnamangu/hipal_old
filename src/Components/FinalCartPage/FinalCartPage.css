@@ -1,0 +1,108 @@
+@media (max-width:480px){
+    .menu-page-container{
+        background-image: url(/src/pics/Menu_page.png);
+        background-size: cover;
+        height:175.23px;
+        width: 480px;
+        font-family:sans-serif;
+    }
+    .back-icon{
+        height: 80px;
+        width:81px;
+        padding-top:25px;
+        padding-left: 25px;
+
+    }
+    .menu-categories-card{
+        border-top-left-radius: 30px;
+        background-color: #ffffff;
+        border-top-right-radius: 30px;
+        margin-top: 70px;
+        padding-left: 23px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .category{
+        font-size: 23px;
+        font-weight: 600;
+        padding-top: 20px;
+        padding-bottom: 16px;
+        color:#171923 ;
+        margin: 0px;
+    }
+    .mini-portion{
+        padding-left: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .price{
+        text-decoration: line-through;
+    }
+    .rupee-price{
+        color:#4A5568;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .title-pic-rupees{
+        display: flex;
+        flex-direction: row;
+    }
+    .portion-drop-down{
+        background-color: #F0F0F0;
+        padding-top: 21px;
+        padding-left: 25px;
+        padding-bottom: 21px;
+    }
+    .arrow{
+        height: 15px;
+        width: 20px;
+    }
+    .slider-portion{
+        border: 1px solid #F14638;
+        width: 380px;
+        height: 125px;
+        margin-left: 25px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .sub-slider-portion{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color:#4A5568;
+    }
+    .order-now-button{
+        background-color: transparent;
+        color:#F14638;
+        border-radius: 20px;
+        border:1px solid #F14638;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-right: 25px;
+        font-weight: 600;
+    }
+    .add-cart-button{
+        position: relative;
+    }
+    .cart-text{
+        position: absolute;
+        color: #ffffff;
+        top:15px;
+        left: 180px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .break-state-shadow{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+}

@@ -1,0 +1,119 @@
+@media (max-width:480px){
+    .portion-page{
+        background-color: #171923;
+        background-size: cover;
+        padding-top: 150px;
+        width: 480px;
+        border-radius: 5px;
+    }
+    .portion-card{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #ffffff;
+    }
+    .cross-button{
+        padding-right: 13px;
+        height: 40px;
+        width: 50px;
+        padding-bottom: 5px;
+    }
+    .portion{
+        border: #F14638 solid;
+        border-radius: 10px;
+        border-width: 2px;
+        padding: 11px;
+        margin-bottom: 20px;
+        color:"#4A5568"
+    }
+    .price{
+        font-family: sans-serif;
+        font-size: 15px;
+        padding-right:10px;
+        font-weight: 600;
+    }
+    .portions-sub{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .sub-titles{
+        color:#4A5568; 
+        font-weight:400;
+        padding-top:2px; 
+        max-width: 90px;
+    }
+    .hr-lines{
+        color:#4A5568;
+        margin-left:"15px" ;
+        margin-right: "15px";
+        width:"90vw";
+    }
+    .radio{
+        height: 20px;
+        width: 25px;
+        accent-color: #F14638;
+    }
+    .category-button-title{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .carousel-button-title{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .category-button{
+        border: solid 1px;
+        border-radius: 30px;
+        max-height: 40px;
+        min-width: 50px;
+        max-width:200px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        margin-right: 12px;
+        padding: 8px;
+    }
+    .button-title{
+        font-size: 14px;
+        font-weight: 600;
+        padding-left: 5px;
+    }
+    .buttons{
+        border:#F14638  solid;
+        border-radius: 20px;
+        background-color: transparent;
+        color:#F14638;
+        height: 32px;
+        width: 32px;
+        border-width:1px;
+        margin-left: 10px;
+        margin-right:10px;
+    }
+    .report{
+        text-align: center;
+        color:#F14638;
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+    .add-cart-button{
+        position: relative;
+    }
+    .cart-text{
+        position: absolute;
+        color: #ffffff;
+        top:15px;
+        left: 150px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
