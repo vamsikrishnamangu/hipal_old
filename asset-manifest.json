@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/hipal/static/css/main.aff5d517.css",
+    "main.js": "/hipal/static/js/main.0cc478f3.js",
+    "static/js/787.c0ac620b.chunk.js": "/hipal/static/js/787.c0ac620b.chunk.js",
+    "static/media/Explore_Page.png": "/hipal/static/media/Explore_Page.0ce309ba76bb156cd591.png",
+    "static/media/Category_image.png": "/hipal/static/media/Category_image.1ff746be860658362f41.png",
+    "static/media/Explore_page_bottom_section.png": "/hipal/static/media/Explore_page_bottom_section.e1d913672a5a623584c3.png",
+    "static/media/bev.png": "/hipal/static/media/bev.ef6756735075917fd8f3.png",
+    "static/media/Menu_page.png": "/hipal/static/media/Menu_page.1d030ef5fda44c3efde8.png",
+    "static/media/Rice_bowls.png": "/hipal/static/media/Rice_bowls.db922cf32388067b6be6.png",
+    "static/media/Flavours_moments.png": "/hipal/static/media/Flavours_moments.03998895ac45001a2b1a.png",
+    "static/media/Cat1.png": "/hipal/static/media/Cat1.4318b5485fc0aa4c69a8.png",
+    "static/media/Ambience_story.png": "/hipal/static/media/Ambience_story.81c3608cadbab0ccf3d2.png",
+    "static/media/Family_friends.png": "/hipal/static/media/Family_friends.49d154f8eb28752b2c40.png",
+    "static/media/Chittigarelu.png": "/hipal/static/media/Chittigarelu.fbaa2b11329c13ca2bd4.png",
+    "static/media/Huge_category_name.png": "/hipal/static/media/Huge_category_name.87988bfe7ec9e3a9c241.png",
+    "static/media/Popular_in_restaurant.png": "/hipal/static/media/Popular_in_restaurant.b170a30ef3a9f085d084.png",
+    "static/media/non_veg_cocktail.png": "/hipal/static/media/non_veg_cocktail.b8293bee7df50738706f.png",
+    "static/media/veg_cocktail.png": "/hipal/static/media/veg_cocktail.694d123d4a7ce7ccd1fa.png",
+    "static/media/mimosa_pic.png": "/hipal/static/media/mimosa_pic.b9459c91b3fa37f646e4.png",
+    "index.html": "/hipal/index.html",
+    "main.aff5d517.css.map": "/hipal/static/css/main.aff5d517.css.map",
+    "main.0cc478f3.js.map": "/hipal/static/js/main.0cc478f3.js.map",
+    "787.c0ac620b.chunk.js.map": "/hipal/static/js/787.c0ac620b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aff5d517.css",
+    "static/js/main.0cc478f3.js"
+  ]
+}
