@@ -1,8 +1,8 @@
 import React from 'react'
-import B1 from '../pics/Category_b1.png';
-import B2 from '../pics/Category_b2.png';
-import B3 from '../pics/Category_b3.png';
-import Line from '../pics/Line.png'
+import B1 from '../../pics/Category_b1.png';
+import B2 from '../../pics/Category_b2.png';
+import B3 from '../../pics/Category_b3.png';
+import Line from '../../pics/Line.png'
 const CategoryCas = () => {
   return (
     <>

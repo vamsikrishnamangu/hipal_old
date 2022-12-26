@@ -1,7 +1,7 @@
 import React from 'react'
-import ambience from '../pics/Ambience_story.png';
-import chittigarelu from '../pics/Chittigarelu.png';
-import familyFriends from '../pics/Family_friends.png';
+import ambience from '../../pics/Ambience_story.png';
+import chittigarelu from '../../pics/Chittigarelu.png';
+import familyFriends from '../../pics/Family_friends.png';
 
 const StoriesSection = () => {
   return (

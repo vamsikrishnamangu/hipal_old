@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel1 from '../pics/Carousel_a1.png';
+import Carousel1 from '../../pics/Carousel_a1.png';
 import './MenuPage.css';
 import './CategoryCarousel.css';
 const carouselData =[

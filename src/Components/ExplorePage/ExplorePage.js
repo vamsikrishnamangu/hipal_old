@@ -1,16 +1,16 @@
 import React  from 'react';
-import './explorePage.css';
+import './ExplorePage.css';
 // importing images from local system
-import imageAlarm from '../pics/Explore_Page_alarm.png';
-import locationLogo from '../pics/Explore_Page_location.png';
-import callIcon from '../pics/Explore_Page_call_icon.png';
-import cardLogo from '../pics/Restaurant_logo.png';
+import imageAlarm from '../../pics/Explore_Page_alarm.png';
+import locationLogo from '../../pics/Explore_Page_location.png';
+import callIcon from '../../pics/Explore_Page_call_icon.png';
+import cardLogo from '../../pics/Restaurant_logo.png';
 
 import StoriesSection from './StoriesSection';
 import ImageCarousel from './ImageCarousel';
-import PopularInRestaurant from './PopularInRestaurant';
-import FooterSection from './FooterSection';
-// importing story from react
+import PopularInRestaurant from '../PopularInRestaurant';
+import FooterSection from '../FooterSection';
+
 //import Stories from 'react-insta-stories';
 
 const Explore = ()=>{
@@ -46,7 +46,6 @@ const Explore = ()=>{
                         Quick Menu
                     </div>
                 </div>
-
                 <StoriesSection />
                 <ImageCarousel />
                 <PopularInRestaurant />

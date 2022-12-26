@@ -1,15 +1,15 @@
 import React from 'react'
 
-import BackIcon from '../pics/Back_icon.png';
-import SeeAll from '../pics/See_all_icon.png';
-import FilterList from '../pics/filter_list.png';
-import Search from '../pics/Search_icon.png';
+import BackIcon from '../../pics/Back_icon.png';
+import SeeAll from '../../pics/See_all_icon.png';
+import FilterList from '../../pics/filter_list.png';
+import Search from '../../pics/Search_icon.png';
 
 import CategoryCarousel from './CategoryCarousel';
 import Cocktails from './Cocktails';
 import './MenuPage.css';
 import CategoryCas from './CategoryCas';
-import FooterSection from './FooterSection';
+import FooterSection from '../FooterSection';
 const MenuPage = () => {
   return (
     <>

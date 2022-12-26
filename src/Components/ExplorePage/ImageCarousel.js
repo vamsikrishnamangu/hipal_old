@@ -1,6 +1,6 @@
 import React from 'react';
-import riceBowls from '../pics/Rice_bowls.png';
-import flavours from '../pics/Flavours_moments.png';
+import riceBowls from '../../pics/Rice_bowls.png';
+import flavours from '../../pics/Flavours_moments.png';
 
 const ImageCarousel = () => {
   return (
