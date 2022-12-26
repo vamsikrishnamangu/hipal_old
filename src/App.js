@@ -16,15 +16,15 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route exact path="/HIPAL/" element={<Explore/>}/>
-      <Route exact path="/HIPAL/menu/" element={<MenuPage/>}/>
-      <Route exact path="/HIPAL/category/" element={<CategoryTilePage/>}/>
-      <Route exact path="/HIPAL/category_list/" element={<CategoryListPage/>}/>
-      <Route exact path="/HIPAL/product/" element={<ProductPage/>}/>
-      <Route exact path="/HIPAL/portion/" element={<PortionPage/>}/>
-      <Route exact path="/HIPAL/final/" element={<FinalCartPage/>}/>
-      <Route exact path="/HIPAL/smart_suggestor/" element={<SmartSuggestor/>}/>
-      <Route exact path="/HIPAL/review" element={<ReviewPage/>}/>
+      <Route exact path="/hipal/" element={<Explore/>}/>
+      <Route exact path="/hipal/menu/" element={<MenuPage/>}/>
+      <Route exact path="/hipal/category/" element={<CategoryTilePage/>}/>
+      <Route exact path="/hipal/category_list/" element={<CategoryListPage/>}/>
+      <Route exact path="/hipal/product/" element={<ProductPage/>}/>
+      <Route exact path="/hipal/portion/" element={<PortionPage/>}/>
+      <Route exact path="/hipal/final/" element={<FinalCartPage/>}/>
+      <Route exact path="/hipal/smart_suggestor/" element={<SmartSuggestor/>}/>
+      <Route exact path="/hipal/review" element={<ReviewPage/>}/>
     </Routes>
     </BrowserRouter>
   );
