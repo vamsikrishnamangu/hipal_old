@@ -90,7 +90,7 @@ const SmartSuggestor = () => {
             </div>
         </div>
         <div className='extra-sub'>
-                <h1 style={{color:"#4A5568",fontSize:"12px", fontFamily:"sans-serif"}}>Please select options below to get a smart suggestion specially made for you.</h1>
+                <h1 style={{color:"#4A5568",fontSize:"12px",paddingLeft:"20px" ,fontFamily:"sans-serif"}}>Please select options below to get a smart suggestion specially made for you.</h1>
                     <div className='category-button-title'>
                         <div className='carousel-button-title'>
                                 {

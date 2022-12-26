@@ -108,7 +108,7 @@ const FinalCartPage = () => {
                                 <span>&#8377;</span> <span>{each.rupees}</span>
                             </div>
                         </div>
-                        <hr style={{margin:"7px"}}/>
+                        <hr style={{margin:"6px"}}/>
                         </>
                     )
                 })
@@ -132,7 +132,7 @@ const FinalCartPage = () => {
                                 <span>&#8377;</span> <span>{each.rupees}</span>
                             </div>
                         </div>
-                        <hr style={{margin:"7px"}}/>
+                        <hr style={{margin:"6px"}}/>
                         </>
                     )
                 })

@@ -101,7 +101,7 @@ const PortionPage = () => {
                             <div className='portions-sub'>
                             <h6 style={{color:"#4A5568", fontWeight:400,paddingTop:"2px"}}>{eachPortion.portionType}</h6>
                                 <section>
-                                <span style={{color:"#4A5568", fontWeight:400}}>&#8377;</span> <span style={{color:"#4A5568", fontSize:"16px",fontWeight:400}} className='price'>{eachPortion.price}</span>
+                                <span style={{color:"#4A5568", fontWeight:400}}>&#8377;</span> <span style={{color:"#4A5568", fontSize:"16px",fontWeight:400}} className='prices'>{eachPortion.price}</span>
                                     <input  checked={eachPortion.checked} key={eachPortion.id} value={eachPortion.portionType} name="radio" type="radio" className='radio'/>
                                 </section> 
                             </div>   
@@ -110,14 +110,14 @@ const PortionPage = () => {
                     })
                 }
             </div>
-            <div className='extra-sub'>
+            <div className='extra-sub-portion'>
                 <h1 style={{color:"#4A5568",fontSize:"20px", fontFamily:"sans-serif"}}>Extra</h1>
-                    <div className='category-button-title'>
-                        <div className='carousel-button-title'>
+                    <div className='portion-button-title'>
+                        <div className='portion-carousel-button-title'>
                                 {
                                    extra.length && extra.map((each)=>{
                                     return (
-                                        <button className='category-button' style={{borderColor:`${each.color}`}}>
+                                        <button className='portion-button' style={{borderColor:`${each.color}`}}>
                                             <img src={each.img} alt="a1" className='button-element'/>
                                             <p style={{color:`${each.color}`}} className='button-title'>{each.text}</p>
                                         </button>
@@ -141,7 +141,7 @@ const PortionPage = () => {
                             <div className='portions-sub'>
                                 <h6 className='sub-titles'>{eachPortion.portionType}</h6>
                                 <section>
-                                <span style={{color:"#4A5568", fontWeight:400}}>&#8377;</span> <span style={{color:"#4A5568", fontSize:"16px",fontWeight:400}} className='price'>{eachPortion.price}</span>
+                                <span style={{color:"#4A5568", fontWeight:400}}>&#8377;</span> <span style={{color:"#4A5568", fontSize:"16px",fontWeight:400}} className='prices'>{eachPortion.price}</span>
                                 </section> 
                                 <div>
                                     <button className='buttons'>-</button>

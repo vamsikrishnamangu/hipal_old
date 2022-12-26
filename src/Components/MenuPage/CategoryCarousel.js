@@ -23,12 +23,12 @@ const carouselData =[
 const CategoryCarousel = () => {
   return (
     <>
-    <div className='category-button-title'>
-            <div className='carousel-button-title'>
+    <div className='menu-category-button-title'>
+            <div className='menu-carousel-button-title'>
                 {
                    carouselData.length && carouselData.map((each)=>{
                     return (
-                        <article className='category-button'>
+                        <article className='menu-category-button'>
                             <div>
                                 <img style={{paddingLeft:"10px", paddingTop:"8px", paddingBottom:"8px", paddingRight:"4px"}} src={each.image} alt="a1"/>
                             </div>

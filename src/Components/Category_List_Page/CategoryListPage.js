@@ -92,7 +92,7 @@ const CategoryListPage = () => {
                 {
                    carouselData.length && carouselData.map((each)=>{
                     return (
-                        <button className='category-button'>
+                        <button className='category-list-button'>
                             <img src={each.image} alt="a1" className='button-element'/>
                             <p className='button-title'>{each.title}</p>
                         </button>

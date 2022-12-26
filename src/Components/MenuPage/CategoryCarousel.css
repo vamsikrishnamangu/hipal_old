@@ -1,12 +1,12 @@
 @media (max-width:480px){
-    .category-button-title{
+    .menu-category-button-title{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         padding-left: 23px;
         background-color: #ffffff;
     }
-    .carousel-button-title{
+    .menu-carousel-button-title{
         display: grid;
         grid-auto-flow: column;
         scroll-behavior: smooth;
@@ -17,10 +17,10 @@
         scrollbar-width: none;
         background-color: #ffffff;
     }
-    .carousel-button-title::-webkit-scrollbar{
+    .menu-carousel-button-title::-webkit-scrollbar{
         display: none;
     }
-    .category-button{
+    .menu-category-button{
         border: solid 1px #F14638;
         border-radius: 30px;
         min-height: 35px;

@@ -87,7 +87,7 @@ function ProductPage() {
             <img src={portionSymbol} alt="portion"/>
             <span style={{color:"#E53E3E",fontSize:"14px",fontWeight:400, paddingLeft:"6px"}}>4 Portions available</span>
         </div>
-        <div className='portion-card' style={{paddingTop:"10px"}}>
+        <div className='product-portion-card' style={{paddingTop:"10px"}}>
             {
                 portionCard.map((each)=>{
                     return(

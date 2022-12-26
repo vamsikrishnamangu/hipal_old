@@ -32,8 +32,8 @@
     .see-all{
         padding-top: 18.5px;
         padding-left: 10px;
-        height: 70px;
-        width: 74px;
+        height: 65px;
+        width: 90px;
     }
     .search-box{
         padding-top: 20px;
@@ -54,7 +54,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .category-button{
+    .category-tile-button{
         border: solid 1px #F14638;
         border-radius: 30px;
         max-height: 40px;
@@ -86,7 +86,7 @@
     .category-tags{
         position: absolute;
         bottom:10%;
-        left: 15%;
+        left: 8%;
         background-color: var(--black);
     }
 

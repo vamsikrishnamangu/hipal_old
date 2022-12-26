@@ -47,7 +47,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .category-button{
+    .category-list-button{
         border: solid 1px #F14638;
         border-radius: 30px;
         max-height: 40px;
