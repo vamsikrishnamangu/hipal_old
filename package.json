@@ -2,7 +2,7 @@
   "name": "restaurant-web-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vamsikrishnamangu.github.io/hipal",
+  "homepage": "http://vamsikrishnamangu.github.io/hipal",
   "dependencies": {
     "@fontsource/inter": "^4.5.14",
     "@testing-library/jest-dom": "^5.16.5",
