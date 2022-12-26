@@ -1,4 +1,9 @@
 @media (max-width:480px){
+    .bg-cont{
+        height: 30vh;
+        width:428px;
+        max-width: 480px;
+    }
     .cross-symbol{
         position: absolute;
         left:87%;
@@ -18,7 +23,7 @@
      }
     .carousel-images{
         height: 90vh;
-        max-width: 480px;
+        width: 100%;
     }
     .heading-card{
         display: flex;

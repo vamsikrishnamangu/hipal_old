@@ -55,7 +55,7 @@ function ProductPage() {
 
   return (
     <>
-    <div style={{backgroundImage:`url(${CategoryImage})`}}>
+    
     <Carousel>
         {
             imagesCarousel.map((each)=>{
@@ -147,7 +147,7 @@ function ProductPage() {
         </div>
     </div>
     <FooterSection />
-    </div>
+
     </>
     
   );
@@ -193,4 +193,5 @@ export default ProductPage;
                 <p style={{color:"#4A5568"}}>Half</p>
                 <span style={{color:"#4A5568", fontSize:"12px"}}>&#8377;</span><span style={{color:"#4A5568", fontSize:"12px"}}>232</span>
             </div>
-    */
+    <div style={{backgroundImage:`url(${CategoryImage})`}} className="bg-cont">    </div>
+            */

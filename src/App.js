@@ -8,7 +8,8 @@ import ProductPage from './Components/ProductPage/ProductPage';
 //import ReviewPage from './Components/ReviewPage/ReviewPage';
 //import FinalCartPage from './Components/FinalCartPage/FinalCartPage';
 //import SmartSuggestor from './Components/SmartSuggestor/SmartSuggestor';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+//import './App.scss';
 function App() {
   return (
     <>
