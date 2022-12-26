@@ -4,7 +4,7 @@
         background-size: cover;
         height:175.23px;
         width: 480px;
-        font-family: 'Inter', sans-serif;
+        font-family:sans-serif;
     }
     .back-icon{
         height: 80px;
@@ -89,8 +89,8 @@
     .cart-text{
         position: absolute;
         color: #ffffff;
-        top:15px;
-        left: 150px;
+        top:20%;
+        left: 40%;
         font-size: 20px;
         font-weight: 400;
     }

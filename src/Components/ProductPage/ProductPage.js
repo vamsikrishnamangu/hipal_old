@@ -54,8 +54,7 @@ function ProductPage() {
     ]
 
   return (
-    <>
-    
+    <div style={{backgroundImage:`url(${CategoryImage})`}}>
     <Carousel>
         {
             imagesCarousel.map((each)=>{
@@ -148,7 +147,7 @@ function ProductPage() {
     </div>
     <FooterSection />
 
-    </>
+    </div>
     
   );
 }

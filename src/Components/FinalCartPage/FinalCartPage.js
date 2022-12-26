@@ -96,7 +96,7 @@ const FinalCartPage = () => {
             <h5 style={{paddingLeft:"2px",fontSize:"15px", color:"#E53E3E", paddingRight:"25px"}}>x3</h5>
         </div>
         <br style={{margin:"0px"}}/>
-        <div className='slider-portion'>
+            <div className='slider-portion'>
             {
                 sliderPortion.length && sliderPortion.map((each)=>{
                     return(

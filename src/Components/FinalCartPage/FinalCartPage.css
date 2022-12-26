@@ -64,7 +64,7 @@
     }
     .slider-portion{
         border: 1px solid #F14638;
-        width: 380px;
+        width: 90vw;
         height: 125px;
         margin-left: 25px;
         border-radius: 8px;
@@ -97,8 +97,8 @@
     .cart-text{
         position: absolute;
         color: #ffffff;
-        top:15px;
-        left: 180px;
+        top:20%;
+        left: 45%;
         font-size: 20px;
         font-weight: 400;
     }

@@ -1,8 +1,7 @@
 @media (max-width:480px){
     .bg-cont{
         height: 30vh;
-        width:428px;
-        max-width: 480px;
+        width: 100vw;
     }
     .cross-symbol{
         position: absolute;
@@ -30,7 +29,7 @@
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: nowrap;
-
+        padding-top: 15px;
      }
     .heading{
         font-size: 23px;
@@ -48,6 +47,8 @@
     .portion-card{
         display: flex;
         justify-content: space-between;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
     }
     .extras-list{
         display: flex;

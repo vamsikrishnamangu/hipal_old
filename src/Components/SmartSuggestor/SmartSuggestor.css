@@ -4,7 +4,7 @@
         background-size: cover;
         height:175.23px;
         width: 480px;
-        font-family: 'Inter', sans-serif;
+        font-family:sans-serif;
     }
     .back-icon{
         height: 80px;
@@ -75,7 +75,7 @@
         padding-top: 24px;
         border-radius: 5px;
         font-family: sans-serif;
-        width: 330px;
+        width: 80vw;
     }
     .type-of-meal-button{
         padding-left: 14px;
