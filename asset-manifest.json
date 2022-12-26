@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hipal/static/css/main.aff5d517.css",
-    "main.js": "/hipal/static/js/main.0cc478f3.js",
+    "main.js": "/hipal/static/js/main.2c4eb916.js",
     "static/js/787.c0ac620b.chunk.js": "/hipal/static/js/787.c0ac620b.chunk.js",
     "static/media/Explore_Page.png": "/hipal/static/media/Explore_Page.0ce309ba76bb156cd591.png",
     "static/media/Category_image.png": "/hipal/static/media/Category_image.1ff746be860658362f41.png",
@@ -21,11 +21,11 @@
     "static/media/mimosa_pic.png": "/hipal/static/media/mimosa_pic.b9459c91b3fa37f646e4.png",
     "index.html": "/hipal/index.html",
     "main.aff5d517.css.map": "/hipal/static/css/main.aff5d517.css.map",
-    "main.0cc478f3.js.map": "/hipal/static/js/main.0cc478f3.js.map",
+    "main.2c4eb916.js.map": "/hipal/static/js/main.2c4eb916.js.map",
     "787.c0ac620b.chunk.js.map": "/hipal/static/js/787.c0ac620b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aff5d517.css",
-    "static/js/main.0cc478f3.js"
+    "static/js/main.2c4eb916.js"
   ]
 }
