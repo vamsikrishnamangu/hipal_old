@@ -12,6 +12,7 @@ import SmartSuggestor from './Components/SmartSuggestor/SmartSuggestor';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+  
   return (
     <BrowserRouter>
     <Routes>

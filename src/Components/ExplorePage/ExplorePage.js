@@ -5,7 +5,7 @@ import imageAlarm from '../../pics/Explore_Page_alarm.png';
 import locationLogo from '../../pics/Explore_Page_location.png';
 import callIcon from '../../pics/Explore_Page_call_icon.png';
 import cardLogo from '../../pics/Restaurant_logo.png';
-
+//import explore from '../../pics/Explore_Page.png';
 import StoriesSection from './StoriesSection';
 import ImageCarousel from './ImageCarousel';
 import PopularInRestaurant from '../PopularInRestaurant';
@@ -16,6 +16,7 @@ import FooterSection from '../FooterSection';
 const Explore = ()=>{
     //const story = ["../pics/Ambience_story.png",'../pics/Chttigarelu.png','../pics/Family_friends.png']
     return(
+        <div style={{width:"auto"}}> 
         <div className="explore-page">
             <div className="top-section">
                 <div>
@@ -51,6 +52,7 @@ const Explore = ()=>{
                 <PopularInRestaurant />
                 <FooterSection />
             </div>
+        </div>
         </div>
     )
 }
