@@ -6,10 +6,10 @@ import veg from '../../pics/veg.png';
 import seasonal from '../../pics/seasonal.png';
 import portionSymbol from '../../pics/portion_symbol.png';
 import verticalLine from '../../pics/verticalLine.png';
-//import PopularInRestaurant from '../PopularInRestaurant';
+
 import PopularInRes from '../../pics/Popular_in_restaurant.png';
 import StarDish from '../../pics/Star_dish.png';
-//import AddCart from '../../pics/add_cart.png';
+
 import FooterSection from '../FooterSection';
 import '../PopularInRestaurant.css';
 import './ProductPage.css';
@@ -54,7 +54,8 @@ function ProductPage() {
     ]
 
   return (
-    <div style={{backgroundImage:`url(${CategoryImage})`}}>
+    <>
+    <div className='bg-cont' style={{width:"100vw"}}>
     <Carousel >
         {
             imagesCarousel.map((each)=>{
@@ -146,51 +147,10 @@ function ProductPage() {
             </div>
         </div>
     </div>
-    <FooterSection />
-
     </div>
+    <FooterSection />
+    </>
   );
 }
 
 export default ProductPage;
-
-/*<Carousel>
-      <Carousel.Item>    
-        <img src={cross} alt="cross" className='cross-symbol'/>
-        <img
-          className="d-block w-100"
-          src={CategoryImage}
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={CategoryImage}
-          alt="Second slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={CategoryImage}
-          alt="Third slide"
-        />
-      </Carousel.Item>
-    </Carousel>
-    
-    
-            <div>
-                <p style={{color:"#4A5568"}}>Half</p>
-                <span style={{color:"#4A5568", fontSize:"12px"}}>&#8377;</span><span style={{color:"#4A5568", fontSize:"12px"}}>232</span>
-            </div>
-            <div>
-                <p style={{color:"#4A5568"}}>Half</p>
-                <span style={{color:"#4A5568", fontSize:"12px"}}>&#8377;</span><span style={{color:"#4A5568", fontSize:"12px"}}>232</span>
-            </div>
-            <div>
-                <p style={{color:"#4A5568"}}>Half</p>
-                <span style={{color:"#4A5568", fontSize:"12px"}}>&#8377;</span><span style={{color:"#4A5568", fontSize:"12px"}}>232</span>
-            </div>
-    <div style={{backgroundImage:`url(${CategoryImage})`}} className="bg-cont">    </div>
-            */

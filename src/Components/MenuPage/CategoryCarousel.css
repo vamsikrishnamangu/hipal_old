@@ -1,6 +1,7 @@
 @media (max-width:480px){
     .menu-category-button-title{
         display: flex;
+        width: 100%;
         flex-direction: row;
         flex-wrap: nowrap;
         padding-left: 23px;

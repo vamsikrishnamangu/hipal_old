@@ -1,4 +1,4 @@
-import React from 'react'
+import {React} from 'react'
 import CrossWhite from '../../pics/cross_bg_white.png';
 import './PortionPage.css';
 import portionSymbol from '../../pics/portion_symbol.png';
@@ -145,7 +145,7 @@ const PortionPage = () => {
                                 </section> 
                                 <div>
                                     <button className='buttons'>-</button>
-                                    <span style={{color:"#4A5568"}}>1</span>
+                                    <span style={{color:"#4A5568"}} >1</span>
                                     <button className='buttons'>+</button>
                                 </div>
                             </div>   

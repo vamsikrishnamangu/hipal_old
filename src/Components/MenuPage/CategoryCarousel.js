@@ -45,17 +45,3 @@ const CategoryCarousel = () => {
   )
 }
 export default CategoryCarousel
-
-/**    <div className='cont'>
-        <div className='carrousel'>
-            <article className='card'>
-                <img src={C1} alt="b1" className='c1 c2'/>
-            </article>
-            <article className='card'>
-                <img src={C2} alt="b2" className='c2'/>
-            </article>
-            <article className='card'>
-                <img src={C3} alt="b3" className='c2'/>
-            </article>
-        </div>     
-    </div> */

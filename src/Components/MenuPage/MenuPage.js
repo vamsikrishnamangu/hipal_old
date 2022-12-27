@@ -31,6 +31,7 @@ const MenuPage = () => {
             <Cocktails />
             <FooterSection />
         </div>
+        
     </>
   )
 }

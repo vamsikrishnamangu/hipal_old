@@ -41,7 +41,7 @@ const Explore = ()=>{
                         in the graphic, print and publishing industries for previewing layouts and visual mockups <span className='span-ele'>Read more...</span></p>  
                 </div>
                 <br />
-                <div style={{display:"flex",justifyContent:"center"}}>
+                <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                     <div className="quick-menu-button">
                         Quick Menu
                     </div>

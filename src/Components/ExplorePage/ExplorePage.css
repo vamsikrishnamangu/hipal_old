@@ -83,14 +83,16 @@
         background-color: #f14638;
         border-radius: 30px;
         color:white;
-        font-size: 18px;
+        font-size: medium;
         text-align: center;
-        margin-left: 15px;
-        margin-right: 24px;
-        padding-left: 35%;
-        padding-right: 35%;
-        padding-top: 17px;
-        padding-bottom: 16px;
+        height: 5vh;
+        width: 80vw;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 3%;
+        padding-bottom: 10%;
         position:fixed;
         z-index: 1;
         bottom: 0%;
@@ -129,7 +131,8 @@
         display: flex;
         flex-direction: column;
         height:314px;
-        width:480px;
+        max-width:480px;
+        min-width: 300px;
 
     }
     .special-offers-title{
@@ -148,7 +151,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
     }
-    .carousel{
+    .carousell{
         display: grid;
         grid-auto-flow: column;
         scroll-behavior: auto;
@@ -159,7 +162,7 @@
         scrollbar-width: none;
         padding-bottom: 25px;
     }
-    .carousel::-webkit-scrollbar{
+    .carousell::-webkit-scrollbar{
         display: none;
     }
     .card{
@@ -172,3 +175,4 @@
         width: 300px;
     }
 }
+

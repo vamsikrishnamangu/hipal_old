@@ -5,7 +5,6 @@ import NonVeg from '../../pics/non_veg.png';
 
 import BestSeller from '../../pics/Best_seller.png';
 import VegCocktails from '../../pics/veg_cocktail.png';
-//import addCart from '../../pics/add_cart.png';
 import AddButton from '../../pics/add_button.png';
 import NonVegCocktails from '../../pics/non_veg_cocktail.png';
 

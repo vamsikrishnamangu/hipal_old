@@ -10,7 +10,7 @@ import './PopularInRestaurant.css';
 
 const FooterSection = () => {
   return (
-    <>
+    <div style={{width:"100vw"}}>
     <img src={ExploreBottom} alt="bottom-section" className='image-bottom'/>
     <div className="bottom-card">
         <div className="icons">
@@ -25,7 +25,7 @@ const FooterSection = () => {
         </div>
     </div>
     <img src={copyright} alt="copyright" className='copyright'/>
-    </>
+    </div>
   )
 }
 

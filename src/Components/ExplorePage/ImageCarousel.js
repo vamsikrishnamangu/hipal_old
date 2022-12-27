@@ -7,8 +7,7 @@ const ImageCarousel = () => {
     <>
     <div className="special-offers">
         <h1 className="special-offers-title">Special offers</h1>
-      <div className='carousel'>
-
+      <div className='carousell'>
         <article className='card'>
             <img src={flavours} alt="flavour" className="carousel-tile"/>
         </article>
