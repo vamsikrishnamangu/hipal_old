@@ -9,7 +9,7 @@ import wait from '../../pics/waiting_time.png';
 import texture from '../../pics/Texture.png';
 import leftarrow from '../../pics/left_arrow_red.png';
 import rightarrow from '../../pics/right_arrow_red.png';
-import addCart from '../../pics/add_cart.png';
+//import addCart from '../../pics/add_cart.png';
 import './SmartSuggestor.css';
 import FooterSection from '../FooterSection';
 
@@ -149,10 +149,11 @@ const SmartSuggestor = () => {
                 <img src={rightarrow} alt="right-arrow"/>
             </div>
         </div>
-        <div style={{textAlign:"center"}} className='add-cart-button'>
-            <img src={addCart} alt="add-cart" />
-            <p className='cart-text'>Review</p>
-        </div>
+        <div style={{display:"flex",justifyContent:"center"}}>
+                    <div className="quick-menu-button">
+                        Suggest
+                    </div>
+                </div>
         <FooterSection />
     </div>
     </>

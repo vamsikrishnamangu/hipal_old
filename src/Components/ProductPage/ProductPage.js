@@ -9,7 +9,7 @@ import verticalLine from '../../pics/verticalLine.png';
 //import PopularInRestaurant from '../PopularInRestaurant';
 import PopularInRes from '../../pics/Popular_in_restaurant.png';
 import StarDish from '../../pics/Star_dish.png';
-import AddCart from '../../pics/add_cart.png';
+//import AddCart from '../../pics/add_cart.png';
 import FooterSection from '../FooterSection';
 import '../PopularInRestaurant.css';
 import './ProductPage.css';
@@ -55,7 +55,7 @@ function ProductPage() {
 
   return (
     <div style={{backgroundImage:`url(${CategoryImage})`}}>
-    <Carousel>
+    <Carousel >
         {
             imagesCarousel.map((each)=>{
                 return(
@@ -67,7 +67,7 @@ function ProductPage() {
             })
         }
     </Carousel>
-    <div className='product-card'>
+    <div className='product-card' >
         <div className='heading-card'>
             <h1 className='heading'>Mimosa</h1>
             <div>
@@ -106,12 +106,13 @@ function ProductPage() {
             }
         </div>
         <br />
-        <div style={{paddingBottom:"10px"}}>
+        <div style={{paddingBottom:"10px",position:"relative"}}>
             <img src={portionSymbol} alt="portion"/>
             <span style={{color:"#E53E3E",fontSize:"14px",fontWeight:400, paddingLeft:"6px"}}>7 Extras available</span>
-            <div className='add-cart-button'>
-                <img src={AddCart} alt="cart"/>
-                <p className='cart-text'>Add to Cart</p>
+            <div style={{display:"flex",justifyContent:"center", top:"500px"}}>
+                <div className="product-menu-button">
+                    Add to Cart
+                </div>
             </div>
         </div>
         <ul className='extras-list'>
@@ -148,7 +149,6 @@ function ProductPage() {
     <FooterSection />
 
     </div>
-    
   );
 }
 

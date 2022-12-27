@@ -8,6 +8,23 @@
         left:87%;
         top:10%;
     }
+    .product-menu-button{
+        margin: 15px;
+        background-color: #f14638;
+        border-radius: 30px;
+        color:white;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 24px;
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 17px;
+        padding-bottom: 16px;
+        position:fixed;
+        z-index:5;
+        bottom: 0%;
+    }
     .product-card{
         display: flex;
         flex-direction: column;

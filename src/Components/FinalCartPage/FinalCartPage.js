@@ -4,7 +4,6 @@ import mimosa from '../../pics/mimosa_pic.png';
 import EditIcon from '../../pics/edit_icon.png';
 import arrowUp from '../../pics/arrow_up.png';
 import arrowDown from '../../pics/arrow_down.png';
-import addCart from '../../pics/add_cart.png';
 import FooterSection from '../FooterSection';
 import './FinalCartPage.css';
 
@@ -145,9 +144,10 @@ const FinalCartPage = () => {
             </button>
         </div >
         <br />
-        <div style={{textAlign:"center"}} className='add-cart-button'>
-            <img src={addCart} alt="add-cart" />
-            <p className='cart-text'>Review</p>
+        <div style={{display:"flex",justifyContent:"center"}}>
+            <div className="final-page-button">
+                Review
+            </div>
         </div>
         <br />
         <FooterSection />

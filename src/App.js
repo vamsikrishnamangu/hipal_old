@@ -1,5 +1,4 @@
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
-//import { ReactDOM } from 'react';
 import Explore from './Components/ExplorePage/ExplorePage';
 import './App.css';
 import MenuPage from './Components/MenuPage/MenuPage';
@@ -11,7 +10,7 @@ import ReviewPage from './Components/ReviewPage/ReviewPage';
 import FinalCartPage from './Components/FinalCartPage/FinalCartPage';
 import SmartSuggestor from './Components/SmartSuggestor/SmartSuggestor';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import './App.scss';
+
 function App() {
   return (
     <BrowserRouter>

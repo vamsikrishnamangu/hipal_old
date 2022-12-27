@@ -36,7 +36,31 @@
         padding-bottom: 5px;
         
     }
-
+    .final-menu-button{
+        margin: 15px;
+        background-color: #f14638;
+        border-radius: 30px;
+        color:white;
+        font-size: 18px;
+        width:80vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        position:fixed;
+        bottom: 1%;
+    }
+    .final-button-title{
+        font-size: 18px;
+    }
+    .inside-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 8%;
+        padding-right: 8%;
+        align-items: center;
+    }
     .cocktail-title{
         color:#e53e35;
         font-size: 20px;

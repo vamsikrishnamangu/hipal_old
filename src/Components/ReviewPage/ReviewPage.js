@@ -5,7 +5,6 @@ import Malnadu from '../../pics/Malnadu_logo.png';
 import sad from '../../pics/sad_logo.png';
 import happy from '../../pics/happy_logo.png';
 import satisfied from '../../pics/satisfied_logo.png';
-import addCart from '../../pics/add_cart.png';
 
 import FooterSection from '../FooterSection';
 const Review =[
@@ -80,10 +79,11 @@ const ReviewPage = () => {
         <div style={{textAlign:"center"}}>
             <h6 className='category' style={{color:"#F14638",paddingTop:"25px",paddingRight:"26px",fontSize:"12px", fontFamily:"sans-serif"}}>Skip the review</h6>
         </div>
-        <div style={{textAlign:"center"}} className='add-cart-button'>
-            <img src={addCart} alt="add-cart" />
-            <p className='cart-text'>Post review</p>
-        </div>
+        <div style={{display:"flex",justifyContent:"center"}}>
+                    <div className="review-page-button">
+                        Post Review
+                    </div>
+                </div>
         <br/>
         <FooterSection />
     </div>

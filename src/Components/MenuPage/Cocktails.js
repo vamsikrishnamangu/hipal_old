@@ -5,7 +5,7 @@ import NonVeg from '../../pics/non_veg.png';
 
 import BestSeller from '../../pics/Best_seller.png';
 import VegCocktails from '../../pics/veg_cocktail.png';
-import addCart from '../../pics/add_cart.png';
+//import addCart from '../../pics/add_cart.png';
 import AddButton from '../../pics/add_button.png';
 import NonVegCocktails from '../../pics/non_veg_cocktail.png';
 
@@ -117,8 +117,32 @@ const Cocktails = () => {
                 </div>
             </div>
         </div>
-            <div style={{position:"relative"}}>
-                <img src={addCart} alt="add-cart"/>
+        <div>
+            <div className="final-menu-button">
+                <div className='inside-button'>
+                  <div >
+                    <h6 className='final-button-title'>Final Items</h6>
+                </div>
+                <div>
+                    <span style={{fontSize:"14px"}}>2 Items</span>
+                    <br />
+                    <span>&#8377;</span><span>89</span>  
+                </div>  
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+    </div>
+    </>
+  )
+}
+
+export default Cocktails
+
+/*<span>2 items</span>
+<div style={{position:"relative"}}>
+                <img src={addCart} alt="add-cart" style={{position:"fixed", bottom:"10px"}}/>
                 <div style={{color:"#ffffff", position:"absolute", top:"21%",display:"flex"}}>
                     <div style={{paddingRight:"50px", paddingLeft:"50px"}}>
                         <p style={{margin:"0px"}}>Final Cart</p>
@@ -130,13 +154,4 @@ const Cocktails = () => {
                     </div>
                 </div>
             </div>
-        <br />
-        <br />
-    </div>
-    </>
-  )
-}
-
-export default Cocktails
-
-/*<span>2 items</span>*/
+*/
