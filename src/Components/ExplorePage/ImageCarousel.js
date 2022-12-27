@@ -8,15 +8,15 @@ const ImageCarousel = () => {
     <div className="special-offers">
         <h1 className="special-offers-title">Special offers</h1>
       <div className='carousell'>
-        <article className='card'>
+        <div className='cardd'>
             <img src={flavours} alt="flavour" className="carousel-tile"/>
-        </article>
-        <article className='card'>
+        </div>
+        <div className='cardd'>
             <img src={riceBowls} alt="rice" className="carousel-tile"/>
-        </article>
-        <article className='card'>
+        </div>
+        <div className='cardd'>
             <img src={flavours} alt="flavour" className="carousel-tile"/>
-        </article>
+        </div>
         </div>
     </div>
     </>

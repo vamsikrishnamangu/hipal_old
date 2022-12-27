@@ -126,11 +126,9 @@
     .special-offers{
         background-image:url(/src/pics/background_gray.png);
         background-size: cover;
-        background-color: gray;
         margin: 0px;
         display: flex;
         flex-direction: column;
-        height:314px;
         max-width:480px;
         min-width: 300px;
 
@@ -165,14 +163,13 @@
     .carousell::-webkit-scrollbar{
         display: none;
     }
-    .card{
+    .cardd{
         scroll-snap-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
         padding-right: 27px;
-        height: 300px;
-        width: 300px;
+
     }
 }
 
