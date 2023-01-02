@@ -3,7 +3,7 @@
         background-image: url(/src/pics/Menu_page.png);
         background-size: cover;
         height:200px;
-        width:100vw;
+        width:100%;
         font-family: sans-serif;
     }
     .back-icon{

@@ -7,6 +7,7 @@ import BestSeller from '../../pics/Best_seller.png';
 import VegCocktails from '../../pics/veg_cocktail.png';
 import AddButton from '../../pics/add_button.png';
 import NonVegCocktails from '../../pics/non_veg_cocktail.png';
+//import { Link } from 'react-router-dom';
 
 /*const CocktailsData = [
     {
@@ -49,7 +50,7 @@ const Cocktails = () => {
                 <div className='overlay-cont'>
                     <img src={VegCocktails} alt="veg-cocktail" className='cocktail-image'/>
                     <div className='overlay-img'>
-                    <img src={AddButton} alt="Add" className='add-button'/>
+                        <img src={AddButton} alt="Add" className='add-button'/>
                     </div>
                 </div>
             </div>

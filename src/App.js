@@ -12,8 +12,8 @@ import SmartSuggestor from './Components/SmartSuggestor/SmartSuggestor';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  
   return (
+    <div style={{width:"100%"}}>
     <BrowserRouter>
     <Routes>
       <Route exact path="/hipal/" element={<Explore/>}/>
@@ -27,6 +27,7 @@ function App() {
       <Route exact path="/hipal/review" element={<ReviewPage/>}/>
     </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 

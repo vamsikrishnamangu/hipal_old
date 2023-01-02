@@ -2,7 +2,7 @@
     .popular-in-restaurant{
         background-color: #ffffff;
         height: 295px;
-        min-width: 100%;
+        width: 100%;
         padding-right: 25px;
         padding-top: 18px;
         padding-left: 25px;
@@ -32,7 +32,7 @@
         padding-right: 25px;
     }
     .image-bottom{
-        width: auto;
+        width:100%;
     }
     .bottom-card{
         padding-top: 25px;
@@ -79,7 +79,6 @@
         padding-left: 5px;
     }
     .copyright{
-        min-width: max-content;
-        width: auto;
+        width:100%;
     }
 }

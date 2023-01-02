@@ -9,7 +9,7 @@ import verticalLine from '../../pics/verticalLine.png';
 
 import PopularInRes from '../../pics/Popular_in_restaurant.png';
 import StarDish from '../../pics/Star_dish.png';
-
+import { Link } from 'react-router-dom';
 import FooterSection from '../FooterSection';
 import '../PopularInRestaurant.css';
 import './ProductPage.css';
@@ -55,24 +55,26 @@ function ProductPage() {
 
   return (
     <>
-    <div className='bg-cont' style={{width:"100vw"}}>
+    <div className='bg-cont'>
     <Carousel >
         {
             imagesCarousel.map((each)=>{
                 return(
                     <Carousel.Item>
-                        <img src={cross} alt="cross" className="cross-symbol"/>
                         <div style={{backgroundImage:`url(${each.image})`}} className="carousel-images"></div>
                     </Carousel.Item>
                 )
             })
         }
     </Carousel>
+    <Link to='../hipal/menu/'>
+        <img src={cross} alt="cross" className="cross-symbol"/>
+    </Link>
     <div className='product-card' >
         <div className='heading-card'>
             <h1 className='heading'>Mimosa</h1>
             <div>
-                <span>&#8377;</span> <span className='price'>232</span>
+                <span>&#8377;</span> <span className='price-no-strike'>232</span>
             </div>
         </div>
         <div>
@@ -147,8 +149,9 @@ function ProductPage() {
             </div>
         </div>
     </div>
-    </div>
     <FooterSection />
+    </div>
+    
     </>
   );
 }

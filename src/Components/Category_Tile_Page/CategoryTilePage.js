@@ -10,6 +10,7 @@ import Carousel1 from '../../pics/Carousel_a1.png';
 import bev from '../../pics/bev.png';
 import Cat1 from '../../pics/Cat1.png';
 import FooterSection from '../FooterSection';
+import { Link } from 'react-router-dom';
 const carouselData =[
     {
         image:Carousel1,
@@ -55,7 +56,9 @@ const CategoryTilePage = () => {
   return (
     <>
     <div className='menu-page-container'>
-        <img src={BackIcon} alt="back-icon" className='back-icon'/>
+        <Link to='../hipal/menu/'>
+            <img src={BackIcon} alt="back-icon" className='back-icon'/>
+        </Link>
         <div className='menu-categories-card'>
             <div style={{display: "flex"}}>
                 <h1 className='category'>Categories</h1>

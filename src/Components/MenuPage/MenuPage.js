@@ -10,16 +10,20 @@ import Cocktails from './Cocktails';
 import './MenuPage.css';
 import CategoryCas from './CategoryCas';
 import FooterSection from '../FooterSection';
+import { Link } from 'react-router-dom';
 const MenuPage = () => {
   return (
     <>
     <div className='menu-page-container'>
-        <img src={BackIcon} alt="back-icon" className='back-icon'/>
-    
+        <Link to='../hipal/'>
+            <img src={BackIcon} alt="back-icon" className='back-icon'/>
+        </Link>
         <div className='menu-categories-card'>
             <div style={{display: "flex"}}>
                 <h1 className='category'>Categories</h1>
-                <img src={SeeAll} alt="see-all" className='see-all'/>   
+                <Link to='../hipal/category_list/'>
+                    <img src={SeeAll} alt="see-all" className='see-all'/>
+                </Link> 
             </div>
             <div>
                 <img src={Search} alt="search" className='search-box'/>

@@ -10,13 +10,13 @@ import StoriesSection from './StoriesSection';
 import ImageCarousel from './ImageCarousel';
 import PopularInRestaurant from '../PopularInRestaurant';
 import FooterSection from '../FooterSection';
+import { Link } from 'react-router-dom';
 
 //import Stories from 'react-insta-stories';
 
 const Explore = ()=>{
     //const story = ["../pics/Ambience_story.png",'../pics/Chttigarelu.png','../pics/Family_friends.png']
     return(
-        <div style={{width:"auto"}}> 
         <div className="explore-page">
             <div className="top-section">
                 <div>
@@ -44,7 +44,9 @@ const Explore = ()=>{
                 <br />
                 <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                     <div className="quick-menu-button">
-                        Quick Menu
+                        <Link to='./menu' style={{color:"white", textDecorationLine:"none"}}>
+                            Quick Menu
+                        </Link>
                     </div>
                 </div>
                 <StoriesSection />
@@ -52,7 +54,6 @@ const Explore = ()=>{
                 <PopularInRestaurant />
                 <FooterSection />
             </div>
-        </div>
         </div>
     )
 }
